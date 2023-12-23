@@ -41,13 +41,13 @@ const config = {
 				destination: `${ADVANCED_ANALYTICS_BASE_URL}/api/collect`,
 			},
 			{
-				source: '/blog',
-				destination: 'https://hashnode-headless-starter-kit.vercel.app/blog',
-			},
-			{
 				source: '/',
 				destination: 'https://favouritejome.site',
 			},
+			// {
+			// 	source: '/blog',
+			// 	destination: 'https://hashnode-headless-starter-kit.vercel.app/blog',
+			// },
 		];
 	},
 };
