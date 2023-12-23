@@ -42,12 +42,12 @@ const config = {
 			},
 			{
 				source: '/blog',
-				destination: 'https://hashnode-headless-starter-kit.vercel.app/blog',
+				destination: 'https://favourite.site',
 			},
-			{
-				source: '/blog/:path*',
-				destination: 'https://hashnode-headless-starter-kit.vercel.app/blog/:path*',
-			},
+			// {
+			// 	source: '/blog/:path*',
+			// 	destination: 'https://hashnode-headless-starter-kit.vercel.app/blog/:path*',
+			// },
 			// {
 			// 	source: '/blog',
 			// 	destination: 'https://hashnode-headless-starter-kit.vercel.app/blog',
