@@ -43,7 +43,7 @@ export const Header = (props: Props) => {
 						)}
 					>
 						<HeaderBlogSearch publication={publication} />
-						<Button as="a" href="#" type="primary" label="Sign up" />
+						<Button as="a" href="https://hashnode.com/@Favourite" type="primary" label="Follow" />
 					</div>
 				</div>
 
