@@ -86,18 +86,6 @@ const config = {
 				source: '/api/collect',
 				destination: `${ADVANCED_ANALYTICS_BASE_URL}/api/collect`,
 			},
-			{
-				source: '/blog',
-				destination: 'https://favourite.site',
-			},
-			// {
-			// 	source: '/blog/:path*',
-			// 	destination: 'https://hashnode-headless-starter-kit.vercel.app/blog/:path*',
-			// },
-			// {
-			// 	source: '/blog',
-			// 	destination: 'https://hashnode-headless-starter-kit.vercel.app/blog',
-			// },
 		];
 	},
 	async redirects() {
