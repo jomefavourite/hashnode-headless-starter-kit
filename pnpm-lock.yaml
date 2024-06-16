@@ -362,6 +362,9 @@ importers:
       js-cookie:
         specifier: ^3.0.5
         version: 3.0.5
+      next-themes:
+        specifier: ^0.3.0
+        version: 0.3.0(react-dom@18.2.0)(react@18.2.0)
       react-waypoint:
         specifier: ^10.3.0
         version: 10.3.0(react@18.2.0)
@@ -6016,6 +6019,16 @@ packages:
     dependencies:
       next: 13.5.5(@babel/core@7.23.2)(react-dom@18.2.0)(react@18.2.0)
       whatwg-fetch: 3.6.19
+    dev: false
+
+  /next-themes@0.3.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-/QHIrsYpd6Kfk7xakK4svpDI5mmXP0gfvCoJdGpZQ2TOrQZmsW0QxjaiLn8wbIKjtm4BTSqLoix4lxYYOnLJ/w==}
+    peerDependencies:
+      react: ^16.8 || ^17 || ^18
+      react-dom: ^16.8 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /next-urql@5.0.2(react@18.2.0)(urql@4.0.4):
